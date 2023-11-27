@@ -1,0 +1,22 @@
+
+body{
+    background-color: #feff9c;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.packed{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.form-group{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+table, th, td {
+    border: 0.5px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+  }
